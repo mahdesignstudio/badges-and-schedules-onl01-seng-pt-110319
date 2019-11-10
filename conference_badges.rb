@@ -11,3 +11,4 @@ def batch_badge_creator(array)
   end 
   return nuarray
 end 
+
