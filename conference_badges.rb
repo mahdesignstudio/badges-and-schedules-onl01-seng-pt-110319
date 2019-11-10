@@ -1,3 +1,5 @@
+# batch_badge_creator(people)
+
 people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
@@ -13,9 +15,7 @@ def batch_badge_creator(array)
 end 
 
 
-# batch_badge_creator(people)
-
-
+# assign_rooms(people)
 
 def assign_rooms(array)
   nuarray = []
@@ -27,7 +27,6 @@ def assign_rooms(array)
   return nuarray
 end
 
-# assign_rooms(people)
 
 def printer(array)
   batch_badge_creator(array).each do |id|
